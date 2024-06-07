@@ -15,15 +15,13 @@
             </v-sheet>
           </v-col>
           <v-col>
-            <v-sheet min-height="70vh" rounded="lg">
-              <v-carousel height="100%" show-arrows="hover">
-                <v-carousel-item v-for="(image, i) in roomData.images" :key="i">
-                  <v-sheet height="100%">
-                    <img :src="image.url" :alt="'Slide' + (i + 1)" class="d-block w-100" />
-                  </v-sheet>
-                </v-carousel-item>
-              </v-carousel>
-              <v-card>
+      <div class="v-col v-md-6">
+        <v-card>
+          <v-card-text>
+            <v-img v-for="(image, i) in roomData.images" :key="i" :src="image" :alt="`Imagem do Quarto ${i + 1}`">
+            </v-img>
+          </v-card-text>
+          <v-card>
                 <v-card-title>{{ roomData.displayName }}</v-card-title>
                 <v-card-text>
                   <p><strong>Address:</strong> {{ roomData.property.address }}</p>
@@ -33,8 +31,21 @@
                   <p><strong>Rack Rate:</strong> ${{ roomData.rackRate }}</p>
                   <p><strong>Cleaning Fee:</strong> ${{ roomData.cleaningFee }}</p>
                 </v-card-text>
+                <v-card-title>
+            <span>Galeria de Fotos do Quarto</span>
+          </v-card-title>
               </v-card>
-            </v-sheet>
+        </v-card>
+      </div>
+            <v-sheet min-height="70vh" rounded="lg">
+              <v-carousel height="100%" show-arrows="hover">
+                <v-carousel-item v-for="(image, i) in roomData.images" :key="i">
+                  <v-sheet height="100%">
+                    <img :src="image.url" :alt="'Slide' + (i + 1)" class="d-block w-100" />
+                  </v-sheet>
+                </v-carousel-item>
+              </v-carousel>
+             </v-sheet>
           </v-col>
         </v-row>
       </v-container>
