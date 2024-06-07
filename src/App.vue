@@ -4,12 +4,11 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            
             <v-sheet>
               <v-card-title>{{ roomData.property.name }}</v-card-title>
-              <v-carousel height="100%" show-arrows="hover" cycle hide-delimiter-background>
+              <v-carousel show-arrows="hover" cycle hide-delimiter-background>
                 <v-carousel-item v-for="(image, i) in roomData.property.propertyImages" :key="i">
-                  <v-sheet height="500px">
+                  <v-sheet>
                     <img :src="image.url" :alt="'Slide' + (i + 1)" width="1200px" height="500px" />
                   </v-sheet>
                 </v-carousel-item>
@@ -46,7 +45,7 @@
   </v-app>
 </template>
 <script setup>
-import { ref } from 'vue'
+
 import roomData from '../package.json'
 
 </script>
