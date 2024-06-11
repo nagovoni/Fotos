@@ -15,12 +15,9 @@
               </v-carousel>
             </v-sheet>
           </v-col>
-
           <v-col cols="12">
-            
             <v-card>
               <v-card-title>{{ roomData.displayName }}</v-card-title>
-              <v-card-text>
                 <v-container fluid>
                   <v-row>
                     <v-col v-for="(image, i) in roomData.images" :key="i" cols="3" xs="6" sm="4">
@@ -28,7 +25,6 @@
                     </v-col>
                   </v-row>
                 </v-container>
-              </v-card-text>
               <v-card-text>
                 <p><strong>Address:</strong> {{ roomData.property.address }}</p>
                 <p><strong>City:</strong> {{ roomData.property.city }}</p>
@@ -46,6 +42,6 @@
 </template>
 <script setup>
 
-import roomData from '../package.json'
+import roomData from '../src/pages/roomData.json'
 
 </script>

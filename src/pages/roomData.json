@@ -1,0 +1,106 @@
+{
+    "name": "LP Studio 20VCG.2C- 427288",
+    "qty": 6,
+    "minPrice": 60,
+    "maxPeople": 2,
+    "upToPersonValue": 2,
+    "taxPercentage": 0,
+    "taxPerson": 0,
+    "rackRate": 300,
+    "cleaningFee": 180,
+    "securityDeposit": 0,
+    "sellPriority": 100,
+    "highlightColor": "ffffff",
+    "includeInReports": true,
+    "overbookingProtection": "property",
+    "blockAfterCheckOutDays": 0,
+    "controlPriority": 100,
+    "unitAllocation": "perBooking",
+    "roomDescription": "Check-in: Ap&oacute;s 15h<br />Check-out: At&eacute; 11h",
+    "extraPerson": 0,
+    "extraChild": 0,
+    "displayName": "LP Studio Premium",
+    "deleted": false,
+    "propertyId": 199299,
+    "isHighlighted": false,
+    "highlightOrder": null,
+    "createdAt": {
+        "$date": "2023-07-06T22:07:56.976Z"
+    },
+    "updatedAt": {
+        "$date": "2024-06-05T18:46:55.153Z"
+    },
+    "deletedAt": null,
+    "roomSize": 20,
+    "isHidden": false,
+    "images": [
+        {
+            "url": "https://beds24.360suites.com.br/images/199299/427288/1.jpg",
+            "position": "1"
+        },
+        {
+            "url": "https://beds24.360suites.com.br/images/199299/427288/2.jpg",
+            "position": "2"
+        },
+        {
+            "url": "https://beds24.360suites.com.br/images/199299/427288/3.jpg",
+            "position": "3"
+        },
+        {
+            "url": "https://beds24.360suites.com.br/images/199299/427288/4.jpg",
+            "position": "4"
+        },
+        {
+            "url": "https://beds24.360suites.com.br/images/199299/427288/6.jpg",
+            "position": "5"
+        },
+        {
+            "url": "https://beds24.360suites.com.br/images/199299/427288/7.jpg",
+            "position": "6"
+        }
+    ],
+    "property": {
+        "name": "360 Vibe República",
+        "address": "Rua Bento Freitas, 181",
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "country": "BR",
+        "postcode": "01220-000",
+        "latitude": -23.5438681,
+        "longitude": -46.6455288,
+        "propertyImages": [
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/19.png",
+                "position": "5"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/20.png",
+                "position": "4"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/21.png",
+                "position": "6"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/23.png",
+                "position": "3"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/24.png",
+                "position": "2"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/25.png",
+                "position": "7"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/26.png",
+                "position": "1"
+            },
+            {
+                "url": "https://media.xmlcal.com/pic/p0013/6085/27.png",
+                "position": "8"
+            }
+        ]
+    }
+}
